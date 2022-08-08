@@ -1,12 +1,11 @@
 """
-Transformer blocks   Script  ver： Apr 23th 22:00
+Transformer blocks   Script ver: 08/08/2022
 
 Altered output to get all feature sequence for MIL-SI structure
 based on：timm
 https://www.freeaihub.com/post/94067.html
 
 """
-
 from collections import OrderedDict
 from functools import partial
 
