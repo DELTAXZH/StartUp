@@ -1,3 +1,9 @@
+"""
+Third course is about building models and basic knowledge of objects
+
+https://pytorch.org/tutorials/beginner/introyt/modelsyt_tutorial.html
+"""
+
 import os
 import torch
 from torch import nn

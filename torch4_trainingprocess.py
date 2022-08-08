@@ -1,5 +1,8 @@
-# License: BSD
-# Author: Sasank Chilamkurthy
+"""
+Last course is about building the whole process and transfer learning
+
+https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+"""
 
 from __future__ import print_function, division
 

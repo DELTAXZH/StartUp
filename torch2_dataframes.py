@@ -1,3 +1,11 @@
+"""
+Second course is about dataframe
+the dataset dataloader and data transforms
+
+https://pytorch.org/tutorials/beginner/basics/data_tutorial.html
+https://pytorch.org/tutorials/beginner/basics/transforms_tutorial.html
+"""
+
 import torch
 from torch.utils.data import Dataset
 from torchvision import datasets

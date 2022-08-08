@@ -1,3 +1,10 @@
+"""
+First course is about nnumpy, torch.tensor
+
+https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html
+https://pytorch.org/tutorials/beginner/introyt/tensors_deeper_tutorial.html
+"""
+
 import torch
 import numpy as np
 
