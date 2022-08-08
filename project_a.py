@@ -149,10 +149,14 @@ def test_model(model, dataloader, criterion, class_names, dataset_size, check_mi
     print(f'Test Loss: {epoch_loss:.4f} Acc: {epoch_acc:.4f}')
 
 
+# Step 0 : enviroment preparing
+import matplotlib
+matplotlib.use('Agg')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
+
 # Step 1 : data preparing
-data_dir = '/data/MIL_Experiment/dataset/warwick_CLS'
+data_dir = '/home/XZH/data/warwick_CLS'
 img_size = 224
 num_classes = 2
 
